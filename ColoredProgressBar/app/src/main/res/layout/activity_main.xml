@@ -9,8 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="test.launcher.mummu.coloredprogressbar.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <test.launcher.mummu.coloredprogressbar.CustomSeekBar
+        android:id="@+id/view"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:progressDrawable="@drawable/test" />
 </RelativeLayout>
